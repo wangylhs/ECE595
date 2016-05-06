@@ -1,0 +1,13 @@
+1. Code for data collection are in the data_collection file
+2. data_used folder contains all the data we used for the project
+3. All code author by Yinglai_Wang are in the src file.
+
+Since all my programs need run with the support of MySQL, you might have problem to run it.
+I can do a demo if necessary.
+
+Import_data.java -> import and format trace route and delay data into database
+Delay_Box_plot.java -> generate data needed for plot the box plot(not used at the end)
+Give_path.java -> Compute and all the paths that each server take
+				  Also can compute all paths a given server take during different time period that user inputed
+Trace_Predict.java -> Predict a trace route result at a given time for a given websit
+Detect_problematic.java -> Detect problematic link(router) for a given server.
